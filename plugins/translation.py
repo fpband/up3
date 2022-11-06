@@ -30,7 +30,7 @@ class Translation(object):
     ABOUT_TEXT = """
 🤖 **نام ربات** :** [IR-UPLOADER-BOT](https://t.me/ir_uploadbot) •**
 
-📢 **کانال پشتیبانی** :** [IR-BOTZ](https://t.me/irbotz) •**
+📢 **کانال پشتیبانی** :** [IR-BOTZ](https://t.me/ir_botz) •**
 
 🌀 **ورژن** :** [v-2.0](https://t.me/ir_uploadbot) •**
 
