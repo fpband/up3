@@ -25,7 +25,7 @@ class Config(object):
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001708811948")
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 50000000
     TG_MAX_FILE_SIZE = 2097152000
@@ -45,7 +45,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority")
     SESSION_NAME = os.environ.get("SESSION_NAME", "R-B-0")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001787336960"))
     LOGGER = logging
